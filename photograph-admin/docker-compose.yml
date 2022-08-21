@@ -55,4 +55,3 @@ services:
       - ./docker/phpmyadmin/sessions:/sessions
 volumes:
   mysql_data:
-
