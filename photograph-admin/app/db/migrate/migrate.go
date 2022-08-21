@@ -1,4 +1,4 @@
-package migrate
+package main
 
 import (
 	"photograph/app/db"

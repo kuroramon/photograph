@@ -13,3 +13,13 @@
 docker-compose up
 ```
 
+### 3 migrate実施
+
+- goのコンテナに入る
+```
+docker exec -it webdrawer_server sh
+```
+- 以下のコマンドでマイグレーションを実行
+```
+go run db/migrate/migrate.go
+```
